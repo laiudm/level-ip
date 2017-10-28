@@ -22,14 +22,12 @@ static struct socket *alloc_socket(pid_t pid)
     static int fd = 4097;
     struct socket *sock = malloc(sizeof (struct socket));
     list_init(&sock->list);
-
     sock->pid = pid;
     sock->fd = fd++;
     sock->state = SS_UNCONNECTED;
     sock->ops = NULL;
     sock->flags = O_RDWR;
     wait_init(&sock->sleep);
-    
     return sock;
 }
 
@@ -152,16 +150,13 @@ int _socket(pid_t pid, int domain, int type, int protocol)
 {
     struct socket *sock;
     struct net_family *family;
-
     if ((sock = alloc_socket(pid)) == NULL) {
         print_err("Could not alloc socket\n");
         return -1;
     }
 
     sock->type = type;
-
     family = families[domain];
-
     if (!family) {
         print_err("Domain not supported: %d\n", domain);
         goto abort_socket;
@@ -171,12 +166,10 @@ int _socket(pid_t pid, int domain, int type, int protocol)
         print_err("Creating domain failed\n");
         goto abort_socket;
     }
-
     pthread_rwlock_wrlock(&slock);
     
     list_add_tail(&sock->list, &sockets);
     sock_amount++;
-
     pthread_rwlock_unlock(&slock);
 
     return sock->fd;
@@ -312,6 +305,7 @@ int _getsockopt(pid_t pid, int fd, int level, int optname, void *optval, socklen
         case SO_ERROR:
             *optlen = 4;
             *(int *)optval = sock->sk->err;
+printf("SO_ERROR return value = %i\n", sock->sk->err);			
             return 0;
         default:
             print_err("Getsockopt unsupported optname %d\n", optname);

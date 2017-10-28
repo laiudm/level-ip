@@ -1,0 +1,42 @@
+[19098] 15 Sep 07:15:18 [CONN]Connection from 192.168.1.111
+[19098] 15 Sep 07:15:18 [CONN]Connection from 192.168.1.111
+[19098] 15 Sep 07:15:18 [RECV] GET / HTTP/1.1 
+[19098] 15 Sep 07:15:18 [DEBUG]total:18320
+[19098] 15 Sep 07:15:18 [DEBUG]out_buf_cur 18320
+[19098] 15 Sep 07:15:18 [DEBUG]out_buf_total 18320
+[19098] 15 Sep 07:15:18 [NOTICE] all messages have been sent.(18320 bytes)
+[19098] 15 Sep 07:15:18 [RECV] GET /favicon.ico HTTP/1.1 
+[19098] 15 Sep 07:15:18 [DEBUG]total:18320
+[19098] 15 Sep 07:15:18 [DEBUG]out_buf_cur 18320
+[19098] 15 Sep 07:15:18 [DEBUG]out_buf_total 18320
+[19098] 15 Sep 07:15:18 [NOTICE] all messages have been sent.(18320 bytes)
+[19098] 15 Sep 07:15:34 [DEBUG] close case 1
+[19098] 15 Sep 07:20:36 [DEBUG] close case 1
+[19098] 15 Sep 07:22:15 [CONN]Connection from 127.0.0.1
+[19098] 15 Sep 07:22:15 [CONN]Connection from 127.0.0.1
+[19098] 15 Sep 07:22:15 [RECV] GET / HTTP/1.1 
+[19098] 15 Sep 07:22:15 [DEBUG]total:18320
+[19098] 15 Sep 07:22:15 [DEBUG]out_buf_cur 18320
+[19098] 15 Sep 07:22:15 [DEBUG]out_buf_total 18320
+[19098] 15 Sep 07:22:15 [NOTICE] all messages have been sent.(18320 bytes)
+[19098] 15 Sep 07:22:15 [RECV] GET /favicon.ico HTTP/1.1 
+[19098] 15 Sep 07:22:15 [DEBUG]total:18320
+[19098] 15 Sep 07:22:15 [DEBUG]out_buf_cur 18320
+[19098] 15 Sep 07:22:15 [DEBUG]out_buf_total 18320
+[19098] 15 Sep 07:22:15 [NOTICE] all messages have been sent.(18320 bytes)
+[19098] 15 Sep 07:22:26 [DEBUG] close case 1
+[19098] 15 Sep 07:22:38 [CONN]Connection from 192.168.1.124
+[19098] 15 Sep 07:22:38 [CONN]Connection from 192.168.1.124
+[19098] 15 Sep 07:22:38 [RECV] GET / HTTP/1.1 
+[19098] 15 Sep 07:22:38 [DEBUG]total:18320
+[19098] 15 Sep 07:22:38 [DEBUG]out_buf_cur 18320
+[19098] 15 Sep 07:22:38 [DEBUG]out_buf_total 18320
+[19098] 15 Sep 07:22:38 [NOTICE] all messages have been sent.(18320 bytes)
+[19098] 15 Sep 07:22:39 [RECV] GET /favicon.ico HTTP/1.1 
+[19098] 15 Sep 07:22:39 [DEBUG]total:18320
+[19098] 15 Sep 07:22:39 [DEBUG]out_buf_cur 18320
+[19098] 15 Sep 07:22:39 [DEBUG]out_buf_total 18320
+[19098] 15 Sep 07:22:39 [NOTICE] all messages have been sent.(18320 bytes)
+[19098] 15 Sep 07:33:26 [DEBUG] close case 1
+[19098] 15 Sep 07:33:26 [DEBUG] close case 1
+[19098] 15 Sep 07:33:26 [DEBUG] close case 1

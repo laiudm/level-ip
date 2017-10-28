@@ -13,7 +13,6 @@ static inline int wait_init(struct wait_lock *w) {
     pthread_cond_init(&w->ready, NULL);
     pthread_mutex_init(&w->lock, NULL);
     w->sleeping = 0;
-    
     return 0;
 };
 

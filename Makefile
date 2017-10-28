@@ -1,4 +1,4 @@
-CPPFLAGS = -I include -Wall -Werror -pthread
+CPPFLAGS = -I include -Wall -Werror -pthread -std=gnu99
 
 src = $(wildcard src/*.c)
 obj = $(patsubst src/%.c, build/%.o, $(src))
@@ -13,7 +13,8 @@ lvl-ip: $(obj)
 build/%.o: src/%.c ${headers}
 	$(CC) $(CFLAGS) $(CPPFLAGS) -c $< -o $@
 
-debug: CFLAGS+= -DDEBUG_SOCKET -DDEBUG_TCP -g -fsanitize=address
+# -fsanitize=address	
+debug: CFLAGS+= -DDEBUG_SOCKET -DDEBUG_TCP -g -DDEBUG_ETH 
 debug: lvl-ip
 
 all: lvl-ip

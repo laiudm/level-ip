@@ -168,9 +168,7 @@ static int ipc_socket(int sockfd, struct ipc_msg *msg)
     struct ipc_socket *sock = (struct ipc_socket *)msg->data;
     pid_t pid = msg->pid;
     int rc = -1;
-
     rc = _socket(pid, sock->domain, sock->type, sock->protocol);
-
     return ipc_write_rc(sockfd, pid, IPC_SOCKET, rc);
 }
 

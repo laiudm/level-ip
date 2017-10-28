@@ -1,0 +1,2198 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0lvlip ttid 3069394944 fcntl called on fidles 3, cmd = 1
+ - liblevelip.c:769
+lvlip ttid 3069394944 __libc_start_main init post-check, callorder = 0, thread = -1225572352
+ - liblevelip.c:854
+lvlip ttid 3069394944 fcntl called on fidles 3, cmd = 2
+ - liblevelip.c:769
+lvlip ttid 3069394944 read called on fd 3, callorder 10, thread = -1225572352
+ - liblevelip.c:291
+lvlip ttid 3069394944 wrapped read, len = 32
+ - liblevelip.c:301
+lvlip ttid 3069394944 read called on fd 3, callorder 10, thread = -1225572352
+ - liblevelip.c:291
+lvlip ttid 3069394944 wrapped read, len = 32
+ - liblevelip.c:301
+lvlip ttid 3069394944 read called on fd 3, callorder 10, thread = -1225572352
+ - liblevelip.c:291
+lvlip ttid 3069394944 wrapped read, len = 8
+ - liblevelip.c:301
+lvlip ttid 3069394944 __libc_start_main called, callorder = 10, thread = -1225572352
+ - liblevelip.c:883
+lvlip ttid 3069394944 close called on 4
+ - liblevelip.c:203
+lvlip ttid 3069394944 close called on 5
+ - liblevelip.c:203
+lvlip ttid 3069394944 socket called
+ - liblevelip.c:155
+lvlip ttid 3069394944 socket exiting, loop-through - domain = 10, type = 2, protocol = 0. AF_INET = 2, SOCK_STREAM = 1, IPPROTO_TCP = 6
+ - liblevelip.c:158
+lvlip ttid 3069394944 close called on 4
+ - liblevelip.c:203
+lvlip ttid 3055932496 socket called
+ - liblevelip.c:155
+lvlip ttid 3055932496 socket exiting, loop-through - domain = 2, type = 2050, protocol = 0. AF_INET = 2, SOCK_STREAM = 1, IPPROTO_TCP = 6
+ - liblevelip.c:158
+lvlip ttid 3055932496 connect called
+ - liblevelip.c:232
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 4 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 8 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 16 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 32 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 64 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 128 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 256 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3055932496 recvfrom called
+ - liblevelip.c:387
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3055932496 recvfrom called
+ - liblevelip.c:387
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 socket called
+ - liblevelip.c:155
+lvlip ttid 3069394944 init_socket called
+ - liblevelip.c:83
+lvlip ttid 3069394944 transmit_lvlip called
+ - liblevelip.c:125
+lvlip ttid 3069394944 transmit_lvlip exiting with fd 4101
+ - liblevelip.c:150
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Socket called - liblevelip.c:197
+lvlip ttid 3069394944 socket exiting, fd = 4101
+ - liblevelip.c:198
+lvlip ttid 3069394944 setsockopt called
+ - liblevelip.c:547
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Setsockopt called - liblevelip.c:552
+lvlip ttid 3069394944 setsockopt called
+ - liblevelip.c:547
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Setsockopt called - liblevelip.c:552
+lvlip ttid 3069394944 setsockopt called
+ - liblevelip.c:547
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Setsockopt called - liblevelip.c:552
+lvlip ttid 3069394944 fcntl called on fidles 4101, cmd = 3
+ - liblevelip.c:769
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Fcntl called - liblevelip.c:782
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Fcntl GETFL - liblevelip.c:797
+lvlip ttid 3069394944 transmit_lvlip called
+ - liblevelip.c:125
+lvlip ttid 3069394944 transmit_lvlip exiting with fd 2
+ - liblevelip.c:150
+lvlip ttid 3069394944 fcntl exited
+ - liblevelip.c:818
+lvlip ttid 3069394944 fcntl called on fidles 4101, cmd = 4
+ - liblevelip.c:769
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Fcntl called - liblevelip.c:782
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Fcntl SETFL - liblevelip.c:802
+lvlip ttid 3069394944 transmit_lvlip called
+ - liblevelip.c:125
+lvlip ttid 3069394944 transmit_lvlip exiting with fd 0
+ - liblevelip.c:150
+lvlip ttid 3069394944 fcntl exited
+ - liblevelip.c:818
+lvlip ttid 3069394944 connect called
+ - liblevelip.c:232
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Connect called - liblevelip.c:241
+lvlip ttid 3069394944 transmit_lvlip called
+ - liblevelip.c:125
+lvlip ttid 3069394944 transmit_lvlip exiting with fd -1
+ - liblevelip.c:150
+lvlip ttid 3069394944 __poll_chk called
+ - liblevelip.c:524
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 1 timeout 0 - liblevelip.c:424
+lvlip ttid 3069394944 Returning counts 0 nfd 0 with revents 0 events 260 timeout 0 - liblevelip.c:511
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 1 timeout 0 - liblevelip.c:424
+lvlip ttid 3069394944 Returning counts 0 nfd 0 with revents 0 events 4 timeout 0 - liblevelip.c:511
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 0 timeout 1000 - liblevelip.c:424
+lvlip ttid 3069394944 __poll_chk called
+ - liblevelip.c:524
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396100   261  100   261    0     0   1980      0 --:--:-- --:--:-- --:--:--  1992
+
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 1 timeout 0 - liblevelip.c:424
+lvlip ttid 3069394944 Returning counts 0 nfd 0 with revents 0 events 260 timeout 0 - liblevelip.c:511
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 1 timeout 196 - liblevelip.c:424
+lvlip ttid 3069394944 Returning counts 1 nfd 0 with revents 4 events 4 timeout 196 - liblevelip.c:511
+lvlip ttid 3069394944 __poll_chk called
+ - liblevelip.c:524
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 1 timeout 0 - liblevelip.c:424
+lvlip ttid 3069394944 Returning counts 1 nfd 0 with revents 260 events 260 timeout 0 - liblevelip.c:511
+lvlip ttid 3069394944 getsockopt called
+ - liblevelip.c:562
+lvlip ttid 3069394944 lvlfd 4 fd 4101: getsockopt called: level 1 optname 4 optval 0 socklen 4 - liblevelip.c:568
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Got getsockopt level 1 optname 4 optval 0 socklen 4 - liblevelip.c:628
+lvlip ttid 3069394944 getsockopt write value = 0, to address = be832dc4
+ - liblevelip.c:635
+lvlip ttid 3069394944 getsockopt exiting
+ - liblevelip.c:638
+lvlip ttid 3069394944 getpeername called
+ - liblevelip.c:644
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Getpeername called - liblevelip.c:649
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Got getpeername fd 4101 addrlen 16 sa_data 0xbe832b3e - liblevelip.c:693
+lvlip ttid 3069394944 getsockname called
+ - liblevelip.c:707
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Getsockname called - liblevelip.c:712
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Got getsockname fd 4101 addrlen 16 sa_data 0xbe832b3e - liblevelip.c:756
+lvlip ttid 3069394944 sendto called
+ - liblevelip.c:371
+lvlip ttid 3069394944 write called
+ - liblevelip.c:262
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Write called - liblevelip.c:271
+lvlip ttid 3069394944 transmit_lvlip called
+ - liblevelip.c:125
+lvlip ttid 3069394944 transmit_lvlip exiting with fd 74
+ - liblevelip.c:150
+lvlip ttid 3069394944 __poll_chk called
+ - liblevelip.c:524
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 1 timeout 0 - liblevelip.c:424
+lvlip ttid 3069394944 Returning counts 0 nfd 0 with revents 0 events 195 timeout 0 - liblevelip.c:511
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 1 timeout 108 - liblevelip.c:424
+lvlip ttid 3069394944 Returning counts 1 nfd 0 with revents 1 events 1 timeout 108 - liblevelip.c:511
+lvlip ttid 3069394944 __poll_chk called
+ - liblevelip.c:524
+lvlip ttid 3069394944 poll called
+ - liblevelip.c:396
+lvlip ttid 3069394944 Poll called with kernel_nfds 0 lvlip_nfds 1 timeout 0 - liblevelip.c:424
+lvlip ttid 3069394944 Returning counts 1 nfd 0 with revents 195 events 195 timeout 0 - liblevelip.c:511
+lvlip ttid 3069394944 recvfrom called
+ - liblevelip.c:387
+lvlip ttid 3069394944 read called on fd 4101, callorder 10, thread = -1225572352
+ - liblevelip.c:291
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Read called - liblevelip.c:305
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>302 Moved</TITLE></HEAD><BODY>
+<H1>302 Moved</H1>
+The document has moved
+<A HREF="http://www.google.co.uk/?gfe_rd=cr&amp;ei=fa2mWbWQN-nv8AeVubjwCw">here</A>.
+</BODY></HTML>
+lvlip ttid 3069394944 close called on 4101
+ - liblevelip.c:203
+lvlip ttid 3069394944 lvlfd 4 fd 4101: Close called - liblevelip.c:212
+lvlip ttid 3069394944 transmit_lvlip called
+ - liblevelip.c:125
+lvlip ttid 3069394944 transmit_lvlip exiting with fd 0
+ - liblevelip.c:150
+lvlip ttid 3069394944 free_socket called
+ - liblevelip.c:120
+lvlip ttid 3069394944 close called on 3
+ - liblevelip.c:203

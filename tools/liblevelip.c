@@ -5,6 +5,14 @@
 #include "list.h"
 #include "utils.h"
 
+#include <pthread.h>
+
+// stack trace
+#include <execinfo.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
 #define RCBUF_LEN 512
 
 static int (*__start_main)(int (*main) (int, char * *, char * *), int argc, \
@@ -44,6 +52,9 @@ static int (*_getsockname)(int socket, struct sockaddr *restrict address,
 static int lvlip_socks_count = 0;
 static LIST_HEAD(lvlip_socks);
 
+static int callorder = 0;
+void init_if_needed(void);
+
 static inline struct lvlip_sock *lvlip_get_sock(int fd) {
     struct list_head *item;
     struct lvlip_sock *sock;
@@ -69,7 +80,7 @@ static int is_socket_supported(int domain, int type, int protocol)
 }
 
 static int init_socket(char *sockname)
-{
+{lvl_dbg("init_socket called\n");
     struct sockaddr_un addr;
     int ret;
     int data_socket;
@@ -106,12 +117,12 @@ static int init_socket(char *sockname)
 }
 
 static int free_socket(int lvlfd)
-{
+{lvl_dbg("free_socket called\n");
     return _close(lvlfd);
 }
 
 static int transmit_lvlip(int lvlfd, struct ipc_msg *msg, int msglen)
-{
+{lvl_dbg("transmit_lvlip called\n");
     char *buf[RCBUF_LEN];
 
     // Send mocked syscall to lvl-ip
@@ -136,13 +147,15 @@ static int transmit_lvlip(int lvlfd, struct ipc_msg *msg, int msglen)
     struct ipc_err *err = (struct ipc_err *) response->data;
 
     if (err->rc == -1) errno = err->err;
-
+lvl_dbg("transmit_lvlip exiting with fd %i\n", err->rc);
     return err->rc;
 }
 
 int socket(int domain, int type, int protocol)
-{
+{lvl_dbg("socket called\n");
+	init_if_needed();
     if (!is_socket_supported(domain, type, protocol)) {
+lvl_dbg("socket exiting, loop-through - domain = %i, type = %i, protocol = %i. AF_INET = %i, SOCK_STREAM = %i, IPPROTO_TCP = %i\n", domain, type, protocol, AF_INET, SOCK_STREAM, IPPROTO_TCP);		
         return _socket(domain, type, protocol);
     }
 
@@ -175,18 +188,20 @@ int socket(int domain, int type, int protocol)
     if (sockfd == -1) {
         /* Socket alloc failed */
         lvlip_free(sock);
+lvl_dbg("socket exiting, failed\n");		
         return -1;
     }
 
     sock->fd = sockfd;
 
     lvl_sock_dbg("Socket called", sock);
-    
+lvl_dbg("socket exiting, fd = %i\n", sockfd);
     return sockfd;
 }
 
 int close(int fd)
-{
+{lvl_dbg("close called on %i\n", fd);
+	init_if_needed();
     struct lvlip_sock *sock = lvlip_get_sock(fd);
 
     if (sock == NULL) {
@@ -214,7 +229,8 @@ int close(int fd)
 }
 
 int connect(int sockfd, const struct sockaddr *addr, socklen_t addrlen)
-{
+{lvl_dbg("connect called\n");
+	init_if_needed();
     struct lvlip_sock *sock = lvlip_get_sock(sockfd);
 
     if (sock == NULL) {
@@ -243,7 +259,8 @@ int connect(int sockfd, const struct sockaddr *addr, socklen_t addrlen)
 }
 
 ssize_t write(int sockfd, const void *buf, size_t len)
-{
+{lvl_dbg("write called\n");
+	init_if_needed();
     struct lvlip_sock *sock = lvlip_get_sock(sockfd);
 
     if (sock == NULL) {
@@ -271,11 +288,17 @@ ssize_t write(int sockfd, const void *buf, size_t len)
 }
 
 ssize_t read(int sockfd, void *buf, size_t len)
-{
+{lvl_dbg("read called on fd %i, callorder %i, thread = %i\n", sockfd, callorder, (int)pthread_self());
+	init_if_needed();
     struct lvlip_sock *sock = lvlip_get_sock(sockfd);
 
     if (sock == NULL) {
         /* No lvl-ip IPC socket associated */
+		if (_read == NULL) {
+			callorder = 2;
+			_read = dlsym(RTLD_NEXT, "read");
+		}
+		lvl_dbg("wrapped read, len = %i\n", len);
         return _read(sockfd, buf, len);
     }
 
@@ -326,7 +349,7 @@ ssize_t read(int sockfd, void *buf, size_t len)
 
     struct ipc_read *data = (struct ipc_read *) error->data;
     if (len < data->len) {
-        print_err("IPC read received len error: %lu\n", data->len);
+        print_err("IPC read received len error: %u\n", data->len);
         return -1;
     }
 
@@ -338,13 +361,15 @@ ssize_t read(int sockfd, void *buf, size_t len)
 
 ssize_t send(int fd, const void *buf, size_t len, int flags)
 {
+
     return sendto(fd, buf, len, flags, NULL, 0);
 }
 
 ssize_t sendto(int fd, const void *buf, size_t len,
                int flags, const struct sockaddr *dest_addr,
                socklen_t dest_len)
-{
+{lvl_dbg("sendto called\n");
+	init_if_needed();
     if (!lvlip_get_sock(fd)) return _sendto(fd, buf, len,
                                         flags, dest_addr, dest_len);
 
@@ -359,7 +384,8 @@ ssize_t recv(int fd, void *buf, size_t len, int flags)
 ssize_t recvfrom(int fd, void *restrict buf, size_t len,
                  int flags, struct sockaddr *restrict address,
                  socklen_t *restrict addrlen)
-{
+{lvl_dbg("recvfrom called\n");
+	init_if_needed();
     if (!lvlip_get_sock(fd)) return _recvfrom(fd, buf, len,
                                           flags, address, addrlen);
 
@@ -367,7 +393,8 @@ ssize_t recvfrom(int fd, void *restrict buf, size_t len,
 }
 
 int poll(struct pollfd *fds, nfds_t nfds, int timeout)
-{
+{lvl_dbg("poll called\n");
+	init_if_needed();
     struct pollfd *kernel_fds[nfds];
     struct pollfd *lvlip_fds[nfds];
     int lvlip_nfds = 0;
@@ -494,7 +521,8 @@ int poll(struct pollfd *fds, nfds_t nfds, int timeout)
 
 int __poll_chk (struct pollfd *__fds, nfds_t __nfds, int __timeout,
                 __SIZE_TYPE__ __fdslen)
-{
+{lvl_dbg("__poll_chk called\n");
+	init_if_needed();
     return poll(__fds, __nfds, __timeout);
 }
 
@@ -508,7 +536,7 @@ int ppoll(struct pollfd *fds, nfds_t nfds,
 int select(int nfds, fd_set *restrict readfds,
            fd_set *restrict writefds, fd_set *restrict errorfds,
            struct timeval *restrict timeout)
-{
+{lvl_dbg("select called\n");
     print_err("Select not implemented yet\n");
     return _select(nfds, readfds, writefds, errorfds, timeout);
 }
@@ -516,7 +544,8 @@ int select(int nfds, fd_set *restrict readfds,
 
 int setsockopt(int fd, int level, int optname,
                const void *optval, socklen_t optlen)
-{
+{lvl_dbg("setsockopt called\n");
+	init_if_needed();
     struct lvlip_sock *sock = lvlip_get_sock(fd);
     if (sock == NULL) return _setsockopt(fd, level, optname, optval, optlen);
 
@@ -530,12 +559,14 @@ int setsockopt(int fd, int level, int optname,
 int getsockopt(int fd, int level, int optname,
                void *optval, socklen_t *optlen)
 {
+lvl_dbg("getsockopt called\n");
+	init_if_needed();
     struct lvlip_sock *sock = lvlip_get_sock(fd);
     if (sock == NULL) return _getsockopt(fd, level, optname, optval, optlen);
 
-    lvl_sock_dbg("Getsockopt called: level %d optname %d optval %d socklen %d",
-                 sock, level, optname, *(int *)optval, *(int *)optlen);
-    
+    lvl_sock_dbg("getsockopt called: level %d optname %d optval %d socklen %d",
+                 sock, level, optname, *(int *)optval, *optlen);
+// lvl_dbg("SOL_SOCKET = %i, SO_BINDTODEVICE=%i, SO_REUSEADDR=%i, SO_BROADCAST=%i, SO_ERROR=%i\n", SOL_SOCKET, SO_BINDTODEVICE, SO_REUSEADDR, SO_BROADCAST, SO_ERROR);
     int pid = getpid();
     int msglen = sizeof(struct ipc_msg) + sizeof(struct ipc_sockopt) + *optlen;
 
@@ -543,22 +574,30 @@ int getsockopt(int fd, int level, int optname,
     msg->type = IPC_GETSOCKOPT;
     msg->pid = pid;
 
-    struct ipc_sockopt opts = {
-        .fd = fd,
-        .level = level,
-        .optname = optname,
-        .optlen = *optlen,
-    };
-
-    memcpy(&opts.optval, optval, *optlen);
-    memcpy(msg->data, &opts, sizeof(struct ipc_sockopt) + *optlen);
+    //struct ipc_sockopt opts = {
+    //    .fd = fd,
+    //    .level = level,
+    //    .optname = optname,
+    //    .optlen = *optlen,
+    //};
+	//
+    //memcpy(&opts.optval, optval, *optlen);
+	//struct ipc_sockopt *opts = alloca(sizeof(struct ipc_sockopt) + *optlen);
+	struct ipc_sockopt *opts = (struct ipc_sockopt *) msg->data;
+	opts->fd = fd;
+	opts->level = level;
+	opts->optname = optname;
+	opts->optlen = *optlen;
+	memcpy(opts->optval, optval, *optlen);
+	
+    //memcpy(msg->data, opts, sizeof(struct ipc_sockopt) + *optlen);
 
     // Send mocked syscall to lvl-ip
     if (_write(sock->lvlfd, (char *)msg, msglen) == -1) {
         perror("Error on writing IPC getsockopt");
     }
 
-    int rlen = sizeof(struct ipc_msg) + sizeof(struct ipc_err) + sizeof(struct ipc_sockopt) + *optlen;
+    int rlen = sizeof(struct ipc_msg) + sizeof(struct ipc_err) + sizeof(struct ipc_sockopt) + *optlen + 1000;
     char rbuf[rlen];
     memset(rbuf, 0, rlen);
 
@@ -579,6 +618,7 @@ int getsockopt(int fd, int level, int optname,
     struct ipc_err *error = (struct ipc_err *) response->data;
     if (error->rc != 0) {
         errno = error->err;
+lvl_dbg("getsockopt error exit, errno = %i, error->rc = %i\n", errno, error->rc);		
         return error->rc;
     }
 
@@ -591,16 +631,18 @@ int getsockopt(int fd, int level, int optname,
 
     /* lvl-ip probably encoded the error value as negative */
     val *= -1;
-
+// assumes a single int return value
+lvl_dbg("getsockopt write value = %i, to address = %x\n", val, (int) optval);
     *(int *)optval = val;
     *optlen = optres->optlen;
-
+lvl_dbg("getsockopt exiting\n"); sync(); sync();
     return 0;
 }
 
 int getpeername(int socket, struct sockaddr *restrict address,
                 socklen_t *restrict address_len)
-{
+{lvl_dbg("getpeername called\n");
+	init_if_needed();
     struct lvlip_sock *sock = lvlip_get_sock(socket);
     if (sock == NULL) return _getpeername(socket, address, address_len);
 
@@ -662,7 +704,8 @@ int getpeername(int socket, struct sockaddr *restrict address,
 
 int getsockname(int socket, struct sockaddr *restrict address,
                 socklen_t *restrict address_len)
-{
+{lvl_dbg("getsockname called\n");
+	init_if_needed();
     struct lvlip_sock *sock = lvlip_get_sock(socket);
     if (sock == NULL) return _getsockname(socket, address, address_len);
 
@@ -723,21 +766,19 @@ int getsockname(int socket, struct sockaddr *restrict address,
 }
 
 int fcntl(int fildes, int cmd, ...)
-{
+{lvl_dbg("fcntl called on fidles %i, cmd = %i\n", fildes, cmd);
+	init_if_needed();
     int rc = -1;
     va_list ap;
     void *arg;
 
     struct lvlip_sock *sock = lvlip_get_sock(fildes);
-
     if (!sock) {
         va_start(ap, cmd);
         arg = va_arg(ap, void *);
         va_end(ap);
-
         return _fcntl(fildes, cmd, arg);
     }
-
     lvl_sock_dbg("Fcntl called", sock);
 
     int pid = getpid();
@@ -749,8 +790,8 @@ int fcntl(int fildes, int cmd, ...)
 
     struct ipc_fcntl *fc = (struct ipc_fcntl *)msg->data;
     fc->sockfd = fildes;
+	
     fc->cmd = cmd;
-    
     switch (cmd) {
     case F_GETFL:
         lvl_sock_dbg("Fcntl GETFL", sock);
@@ -774,34 +815,105 @@ int fcntl(int fildes, int cmd, ...)
         errno = EINVAL;
         break;
     }
-    
+lvl_dbg("fcntl exited\n");    
     return rc;
 }
+
+/*
+// nope -doesn't work
+void stack_trace(void) {
+	int j, nptrs;
+#define SIZE 100
+    void *buffer[SIZE];
+    char **strings;
+
+    nptrs = backtrace(buffer, SIZE);
+    printf("backtrace() returned %d addresses\n", nptrs);
+
+    //The call backtrace_symbols_fd(buffer, nptrs, STDOUT_FILENO)
+    //   would produce similar output to the following: 
+
+   strings = backtrace_symbols(buffer, nptrs);
+    if (strings == NULL) {
+        perror("backtrace_symbols");
+        exit(EXIT_FAILURE);
+    }
+
+   for (j = 0; j < nptrs; j++)
+        printf("%s\n", strings[j]);
+
+   free(strings);
+	
+}
+*/
+
+void init_if_needed(void) {
+	//lvl_dbg("__libc_start_main init, callorder = %i, thread = %i\n", callorder, (int)pthread_self());
+	if (callorder == 0) {
+		//stack_trace(); // see who called?
+		lvl_dbg("__libc_start_main init post-check, callorder = %i, thread = %i\n", callorder, (int)pthread_self());
+		callorder = 10;
+		
+		_sendto = dlsym(RTLD_NEXT, "sendto");
+		_recvfrom = dlsym(RTLD_NEXT, "recvfrom");
+		_poll = dlsym(RTLD_NEXT, "poll");
+		_ppoll = dlsym(RTLD_NEXT, "ppoll");
+		_pollchk = dlsym(RTLD_NEXT, "__poll_chk");
+		_select = dlsym(RTLD_NEXT, "select");
+		_fcntl = dlsym(RTLD_NEXT, "fcntl"); 
+		_setsockopt = dlsym(RTLD_NEXT, "setsockopt");
+		_getsockopt = dlsym(RTLD_NEXT, "getsockopt");
+		_read = dlsym(RTLD_NEXT, "read");
+		_write = dlsym(RTLD_NEXT, "write");
+		_connect = dlsym(RTLD_NEXT, "connect");
+		_socket = dlsym(RTLD_NEXT, "socket");
+		_close = dlsym(RTLD_NEXT, "close");
+		_getpeername = dlsym(RTLD_NEXT, "getpeername");
+		_getsockname = dlsym(RTLD_NEXT, "getsockname");
+	
+		list_init(&lvlip_socks);
+	}
+	//lvl_dbg("__libc_start_main init - exit, callorder = %i, thread = %i\n", callorder, (int)pthread_self());
+}	
 
 int __libc_start_main(int (*main) (int, char * *, char * *), int argc,
                       char * * ubp_av, void (*init) (void), void (*fini) (void),
                       void (*rtld_fini) (void), void (* stack_end))
 {
-    __start_main = dlsym(RTLD_NEXT, "__libc_start_main");
+lvl_dbg("__libc_start_main called, callorder = %i, thread = %i\n", callorder, (int)pthread_self());
+	init_if_needed();
+	
+	__start_main = dlsym(RTLD_NEXT, "__libc_start_main");
+	
+/*
+lvl_dbg("__libc_start_main exiting\n");
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_sendto);
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_recvfrom);
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_poll);
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_ppoll);
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_pollchk);
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_select);
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_fcntl);
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_setsockopt);
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_getsockopt);
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_read);
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_write);
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_connect);
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_socket);
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_close);
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_getpeername);
+lvl_dbg("__libc_start_main symbols: %i\n", (int)_getsockname);
+*/
 
-    _sendto = dlsym(RTLD_NEXT, "sendto");
-    _recvfrom = dlsym(RTLD_NEXT, "recvfrom");
-    _poll = dlsym(RTLD_NEXT, "poll");
-    _ppoll = dlsym(RTLD_NEXT, "ppoll");
-    _pollchk = dlsym(RTLD_NEXT, "__poll_chk");
-    _select = dlsym(RTLD_NEXT, "select");
-    _fcntl = dlsym(RTLD_NEXT, "fcntl");
-    _setsockopt = dlsym(RTLD_NEXT, "setsockopt");
-    _getsockopt = dlsym(RTLD_NEXT, "getsockopt");
-    _read = dlsym(RTLD_NEXT, "read");
-    _write = dlsym(RTLD_NEXT, "write");
-    _connect = dlsym(RTLD_NEXT, "connect");
-    _socket = dlsym(RTLD_NEXT, "socket");
-    _close = dlsym(RTLD_NEXT, "close");
-    _getpeername = dlsym(RTLD_NEXT, "getpeername");
-    _getsockname = dlsym(RTLD_NEXT, "getsockname");
-
-    list_init(&lvlip_socks);
 
     return __start_main(main, argc, ubp_av, init, fini, rtld_fini, stack_end);
 }
+
+/* // supposed to be called at initialisation, but other functions have already been called by then...
+// https://stackoverflow.com/questions/9759880/automatically-executed-functions-when-loading-shared-libraries
+__attribute__((constructor)) static void initialize() {
+  lvl_dbg("initialize called; callorder = %i\n", callorder);
+  
+}
+*/
+
